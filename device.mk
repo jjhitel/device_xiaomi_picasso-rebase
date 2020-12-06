@@ -149,6 +149,25 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# OMX
+PRODUCT_PACKAGES += \
+    libc2dcolorconvert \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor \
+    libmm-omxcore \
+    libOmxCore \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxCore \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libOmxSwVencHevc \
+    libOmxVdec \
+    libOmxVenc \
+    libOmxVidcCommon \
+    libstagefrighthw
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
