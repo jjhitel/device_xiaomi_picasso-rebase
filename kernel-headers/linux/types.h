@@ -5,11 +5,6 @@
 #include <asm/types.h>
 
 #ifndef __ASSEMBLY__
-#ifndef	__KERNEL__
-#ifndef __EXPORTED_HEADERS__
-#warning "Attempt to use kernel headers from user space, see http://kernelnewbies.org/KernelHeaders"
-#endif /* __EXPORTED_HEADERS__ */
-#endif
 
 #include <linux/posix_types.h>
 
