@@ -55,11 +55,7 @@ static inline __attribute_const__ __u16 __fswab16(__u16 val)
 
 static inline __attribute_const__ __u32 __fswab32(__u32 val)
 {
-#if defined(__arch_swab32)
-	return __arch_swab32(val);
-#else
-	return ___constant_swab32(val);
-#endif
+return ___constant_swab32(val);
 }
 
 static inline __attribute_const__ __u64 __fswab64(__u64 val)
