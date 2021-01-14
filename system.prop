@@ -112,6 +112,9 @@ telephony.lteOnCdmaDevice=1
 # RCS
 persist.rcs.supported=1
 
+# WaveOS
+ro.wave.maintainer=jjhitel
+
 # Wi-Fi
 config.disable_rtt=true
 

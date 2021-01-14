@@ -162,8 +162,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
     
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
@@ -270,10 +269,6 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_BOOT_JARS += \
     android.hidl.manager-V1.0-java
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
 
 # WiFi
 PRODUCT_COPY_FILES += \

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_picasso.mk
+    $(LOCAL_DIR)/wave_picasso.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_picasso-user \
-    lineage_picasso-userdebug \
-    lineage_picasso-eng
+    wave_picasso-user \
+    wave_picasso-userdebug \
+    wave_picasso-eng
